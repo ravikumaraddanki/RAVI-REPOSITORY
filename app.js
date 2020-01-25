@@ -10,7 +10,8 @@ var usersRouter = require('./routes/users');
 //new code
 //call application insights
 var appInsights = require('applicationinsights');
-appInsights.setup('766312e1-fa06-4ce2-9d5b-0db57e183be6');
+appInsights.setup('e93a0b8a-718a-4722-ac3e-bdf789dcb1cd');
+
 appInsights.start();
 //end
 var app = express();
